@@ -1,2 +1,2 @@
-# LP_Triangle_BOREA_Altea
-This my easy landingpage
+# LP Triangle BOREA Altea
+This my easy landing page

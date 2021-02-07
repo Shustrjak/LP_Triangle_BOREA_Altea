@@ -1,0 +1,657 @@
+
+@font-face {
+font-family: Gilroy-ExtraBold; /* имя шрифта для CSS правил */
+src: local("Gilroy-ExtraBold"),/* проверка на наличие шрифта в ОС пользователя */
+url("../fonts/Gilroy-ExtraBold.otf");/* если шрифт не найден браузером, то загружаем его по указанному пути */
+}
+@font-face {
+font-family: Gilroy-Light; /* имя шрифта для CSS правил */
+src: local("Gilroy-Light"),/* проверка на наличие шрифта в ОС пользователя */
+url("../fonts/Gilroy-Light.otf");/* если шрифт не найден браузером, то загружаем его по указанному пути */
+}
+@font-face {
+font-family: Calligraphia-One; /* имя шрифта для CSS правил */
+src: local("Calligraphia-One"),/* проверка на наличие шрифта в ОС пользователя */
+url("../fonts/Calligraphia-One.ttf");/* если шрифт не найден браузером, то загружаем его по указанному пути */
+}
+@font-face {
+font-family: Lobster; /* имя шрифта для CSS правил */
+src: local("Lobster"),/* проверка на наличие шрифта в ОС пользователя */
+url("../fonts/Lobster.ttf");/* если шрифт не найден браузером, то загружаем его по указанному пути */
+}
+
+/*Общие свойства*/
+body{
+	background: #161616; /*тут потом поставим Black*/
+	width: 1600px ;
+	margin: 0 auto;
+
+}
+b{
+	font-family:Gilroy-ExtraBold;
+}
+.phone{
+	color: #fff;
+	text-decoration: none;
+	float:right;
+	margin-top:60px;
+	font-size:30px;
+	font-family: Gilroy-Light;
+	margin-right:5px;
+}
+/*BLOCK1*/
+.container{
+	font-family: Arial, Gilroy-ExtraBold, Calligraphia-One, sans-serif;
+	background-color: #d8d8d8;
+	color: white;
+	box-sizing: border-box;
+	background:  url("../img/bg1.jpg") no-repeat center top / cover;
+	height: 1200px;
+	padding: 0;
+	letter-spacing: 1px;
+
+	}
+
+.first{
+	float: left;
+	margin-left:120px;
+
+}
+
+.logo{
+	margin: 60px 0 0 95px;
+	width: 230px;
+	height: 102px;
+	background: url(img/Logo.png) no-repeat 0 0;
+}
+
+.Floorstand{
+	margin: 120px 0px 0 0;
+	width: 322px; 
+	height: 923px;
+
+}
+
+.model{
+	font-family: Calligraphia-One;
+	color: white;
+	font-size: 140px;
+	margin: 80px 0 0 95px;
+	letter-spacing: 0px;
+}
+
+.text1{
+	font-family: Gilroy-Light;
+	color: white;
+	font-size: 30px;
+    margin-left: 95px;
+    margin-top: -16px;
+    letter-spacing: 1px;
+}
+
+.text2{
+	font-family: Gilroy-Light;
+	color: #f7941d;
+	font-size: 40px;
+	margin-left: 95px;
+	margin-top: 90px;
+	letter-spacing: 3pt;
+
+}
+
+.text3{
+	font-family: Gilroy-ExtraBold;
+	color: white;
+	font-size: 68px;	
+	margin-left: 95px;
+	margin-top: 5px;
+	letter-spacing: 5pt;
+}
+.text4{
+	margin-left: 95px;
+	font-size: 20px;
+	font-family: Gilroy-Light;
+	margin-top:240px;
+}
+.button {
+	color: #fff;
+	border-radius: 0px;
+	display: block;
+	margin-top: 120px;
+	margin-left: 95px;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 24px;
+	font-family: Gilroy-Light, sans-serif;
+	width: 430px;	
+	background: #f7941d;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.button:hover {
+	background: #f7941d;
+	color: black;
+}
+
+.button:active {
+background: #b26a14;
+ color: white;
+}
+
+/*BLOCK2*/
+#BLOCK2{
+	color: #f7941d;
+	border: 3px solid #f7941d;
+	border-spacing:5px;
+	display: block;
+	text-align: center;
+	padding: 25px 0;
+	font-size: 20px;
+	font-family: Gilroy-Light, sans-serif;
+	width: 1594px;	
+	letter-spacing: 2px;
+	background: #fff; 
+}
+
+/*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+main{
+	transition: all .2s ease;
+}
+
+.button5 {
+	width: 1594px;
+	height: 60px;
+	margin: 0 auto;
+	border-radius: 0px;
+	background: #fff;
+	text-align: center;
+	cursor: pointer;
+	border: 3px solid #f7941d;
+	line-height: 60px;
+	color:#f7941d;
+	font-family: Gilroy-Light;
+	font-size:24px;
+	letter-spacing: 1px;
+	text-transform: none;
+	text-decoration: none;
+} 
+.button5:hover{
+	background: #f7941d;
+	color:#000;}
+.button5:active{
+	background: #f7941d;
+	color:#000;
+}
+.button6 {
+	width: 1594px;
+	height: 60px;
+	margin: 0 auto;
+	border-radius: 0px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 60px;
+	color:#000;
+	font-family: Gilroy-Light;
+	font-size:24px;
+	letter-spacing: 1px;
+	text-transform: none;
+	text-decoration: none;
+} 
+
+.button6:hover{
+	background: #f7941d;
+	color:#000;
+}
+
+.prim1{
+font-size: 30px;
+text-align: center;
+color:#000;
+}
+.prim2{
+font-size: 18px;	
+color:#000;
+margin-left:150px;
+margin-right:150px;
+}
+.prim3{
+font-size: 14px;
+color:#000;	
+margin-left:150px;
+margin-right:150px;
+}
+
+
+
+/*BLOCK3*/
+.BLOCK3{
+width: 1600px;
+height:1100px; 
+background: #fff;/*править высоту*/
+/*border: 1px solid black;*/
+}
+
+.stack{
+	height: 750px;
+/*border: 1px solid black;
+background: grey;*/
+}
+
+.mid{
+	height: 718px;
+	width: 1403px;
+	margin-left: 50px;
+}
+
+.stack_item{
+	float: left;
+	font-family: Gilroy-Light;
+	font-size: 24px;
+	margin-left:30px;
+	margin-right:30px;
+	/*padding-right:30px;*/
+	height: 650px;
+	width: 600px;
+	letter-spacing: .5px;
+	margin-top:30px;
+	line-height: 1.5em;
+
+}
+
+.frame_mid {
+margin-left: 160px;
+margin-top:130px;
+
+}
+
+/*BLOCK4*/
+.BLOCK4{
+	background: #f7941d;
+	height:400px;
+}
+.zagolovok{
+	font-family: Gilroy-Light;
+	font-size: 40px;
+	width: 1600px ;
+	margin: 0 auto;
+	padding-top: 100px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.zagolovok_item{
+	font-family: Gilroy-Light;
+	font-size: 20px;
+	width: 1600px ;
+	margin: 0 auto;
+	padding-top: 6px;
+    text-align: center;
+    letter-spacing: 1px;
+    color:white;
+
+}
+.offer{
+	margin-left:195px;
+	margin-top:30px;
+	margin-right: 195px;
+	float:left;
+	height: 49px;
+
+ }
+
+.box{
+    color:black;
+	margin-left: 20px;
+   	width: 270px;
+    height:43px;
+    font-size: 18px;
+    font-family: Gilroy-light;
+}
+.check{
+	margin-left:215px;
+	margin-top:100px;
+	margin-right: 50px;
+}
+
+.knopka{
+	margin-top:12px;
+}
+.button1{
+	height: 42px;
+	width: 270px;
+	background:#000;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 0px;
+	display: block;
+	margin-top: 0px;
+	margin-left: 25px;
+	text-align: center;
+	padding: 4px 0;
+	font-size: 18px;
+	font-family: Gilroy-Light, sans-serif;	
+	text-decoration: none;
+	letter-spacing: 2px;
+	float:right;
+
+}
+.popup .close{
+position:absolute;
+top:30px;
+right:30px;
+}
+
+/* Скрываем реальный чекбокс */
+.checkbox {
+	display: none;
+
+}
+/* Задаем внешний вид для нашего кастомного чекбокса. 
+Все обязательные свойства прокомментированы, 
+остальные же свойства меняйте по вашему усмотрению */
+.checkbox-custom {
+	background: url(../img/checkbox1.png);
+	position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+	width: 18px;             /* Обязательно задаем ширину */
+	height: 18px;            /* Обязательно задаем высоту */
+	border: 0px solid #ccc;
+	border-radius: 0px;
+}
+/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+.checkbox-custom,
+.label {
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+}
+/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+.checkbox:checked + .checkbox-custom:before {
+	content: "";             /* Добавляем наш псевдоэлемент */
+	display: block;			 /* Делаем его блочным элементом */
+	position: absolute;      /* Позиционируем его абсолютным образом */
+	/* Задаем расстояние от верхней, правой, нижней и левой границы */
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background: url(../img/checkbox.png);      /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+	border-radius: 0px;
+}
+.intro{
+
+width:1230px;
+height: 1150px;
+background: #fff;
+margin-left:185px;
+margin-top: -25px;
+
+}
+.popup{
+	display:none;
+	border:3px solid #f7941d;
+	text-align: left;
+	z-index:5;
+	background: #fff;
+	margin-left: 0px;
+}
+.pop-title{
+	font-size:30px;
+	font-family: Gilroy-Light;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 80px;
+
+}
+
+.ps{
+	font-family: Gilroy-light;
+	font-size: 16px;
+	margin-left: 150px;
+	margin-right: 150px;
+	letter-spacing: 1px;
+	line-height: 1.3em;
+
+}
+.pols{
+	margin-top:30px;
+}
+/*BLOCK5*/
+.BLOCK5{
+	margin: 0 auto;
+	background: #fff;
+	height: 1450px;
+	
+}
+.description{
+	margin-left:155px;
+	font-family: Gilroy-Light;
+	font-size: 22px;
+	padding-top: 100px;
+
+
+}
+.image{
+	width: 465px;
+	height: 1170px;
+	margin-left:60px;
+	margin-top:30px;
+	float:left;
+
+}
+
+.descr{
+	margin-top:45px;
+	height: 155px;
+	width:660px;
+	float:right;
+	padding-right:80px;
+	margin-right: 155px;
+
+}
+
+.BLOCK6{
+	margin-top: 0px;
+	background: white url(../img/equaliser.png) no-repeat center top;
+	background-size:100%;
+	height: 1055px;
+	width: 1600px;
+	margin-bottom: 0px;
+
+}
+.BLOCK6_item{
+	
+	margin-top:350px;
+	float:right;
+	font-size: 26px;
+	font-family: Gilroy-Light;
+	margin-left:65px;
+	height: 300px;
+	width: 600px;
+	letter-spacing: 1px;
+
+}
+
+.imgBLOCK6{
+	width: 1284px;
+	height: 1158px;
+	margin-left: -850px;
+	margin-top:-560px;
+	float:left;
+
+
+}
+/*BLOCK7*/
+.BLOCK7{
+	background: url("../img/photo.jpg") no-repeat center top / cover;
+	box-sizing: border-box;
+	background-position: 50% 50%;
+	padding: 0;
+	margin: 0 auto;
+	color:white;
+	height:600px;
+}
+
+.zagolovok1{
+	font-family: Gilroy-Light;
+	font-size: 50px;
+	width: 1600px ;
+	margin: 0 auto;
+	padding-top: 200px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.zagolovok_item1{
+	font-family: Gilroy-Light;
+	font-size: 27px;
+	width: 1600px ;
+	margin: 0 auto;
+	padding-top: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+/*БЛОК 8*/
+.BLOCK8{
+	width: 1600px;
+		background: #fff;
+}
+.text {
+	font-family: Gilroy-Light;
+	font-size: 30px;
+	height: 250px;
+	width: 1230px ;
+	margin: 0 auto;
+	padding-top: 100px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.conoption{
+	height: 200px;
+	width: 1230px ;
+	margin: 0 auto;
+	padding: 0;
+
+	
+}
+.property {
+width:270px;
+float: left;
+text-align: center;
+margin-left: 15px;
+}
+.property p{
+	font-family: Gilroy-Light;
+	font-size: 18px;
+
+}
+.conoption1{
+	height: 200px;
+	width: 930px ;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+.property1{
+width:270px;
+float: left;
+text-align: center;
+margin-left: 30px;
+}
+.property1:last-child{
+float: right;
+margin-right: 30px;
+}
+.property1:nth-child(2){
+	margin-left: 30px;
+	margin-right: 0px;
+	}
+.property1 p{
+	font-family: Gilroy-Light;
+	font-size: 18px;
+}
+
+
+/*БЛОК 9 ПОДВАЛ*/
+.footer {
+	width: 1600px;
+	height: 250px;
+	background: #1f1f1f;
+	color: white;
+
+
+}
+
+.block_footer{
+	margin-top:50px;
+	float:left;
+	margin-left:185px;
+	
+	}
+.cont_footer{
+
+	font-family: Gilroy-Light;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-left:30px;
+}
+.phone_footer{
+	font-size: 18px;
+	font-family: Gilroy-Light;
+	margin-top:30px;
+	text-transform: uppercase;
+	margin-left:30px;
+}
+.box_footer{
+	color: #000;
+	margin-left: 10px;
+   	width: 200px;
+    height:30px;
+    font-size: 14px;
+    font-family: Gilroy-light;
+    margin-top: 30px;
+	}
+
+.textoffer_footer{
+	font-family: Gilroy-Light;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-left:300px;
+	}
+.button1_footer{
+	color: #fff;
+	margin-left: 10px;
+	width: 200px;
+	height: 30px;
+	font-size: 14px;
+	font-family: Gilroy-Light, sans-serif;	
+	margin-top: 30px;
+
+	background:#f7941d;
+	text-transform: uppercase;
+	border-radius: 0px;
+	display: block;
+	text-align: center;
+	padding: 3px 0;
+	text-decoration: none;
+	letter-spacing: 2px;
+	float:right;
+	}
+	.offer_footer{
+width: 864px;
+	}
+
+.knopka_footer{
+	margin-top:8px;
+
+}
+.label_footer{
+	margin-left:10px;
+	text-decoration: none;
+	color:white;
+	font-family: Gilroy-light;
+}
